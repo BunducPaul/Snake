@@ -1,0 +1,62 @@
+body{
+    background-color: #014421;
+}
+
+.pointsCollected{
+    position: relative;
+    background-color: #40a829;
+   font-size: 50px;
+   width: 575px;
+   height: 50px;
+    border-bottom:solid 3px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 80%;
+}
+
+.table {
+    background-color: #40a829;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    width: 575px;
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+row {
+    display: inline-block;
+    width: 575px;
+    height: 25px;
+}
+
+cell {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #40a829;
+    text-align: center;
+}
+
+.endAndReset{
+    display: none;
+    position:relative;
+    bottom:628px;
+    width: 575px;
+    height: 628px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1c1124;;
+    text-align: center;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    opacity: 95%;
+}
+
+end{
+    position:relative;
+    top: 200px;
+    color: #40a829;
+}

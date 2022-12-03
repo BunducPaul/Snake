@@ -1,0 +1,5 @@
+# Snake :
+- the player uses the arrow keys to move a "snake" around the board.
+- as the snake finds food, it eats the food, and thereby grows larger.
+- the game ends when the snake either moves off the screen or moves into itself.
+- the goal is to make the snake as large as possible before that happens.
